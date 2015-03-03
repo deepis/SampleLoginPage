@@ -1,0 +1,14 @@
+[
+{
+  "UserId": "U001",
+  "UserName": "deepika",
+  "FullName": "Deepika Sundaram",
+  "UserToken": "123asdf456asdf"
+},
+{
+  "UserId": "U002",
+  "UserName": "JK",
+  "FullName": "Jeyakrishnan pitchaikani",
+  "UserToken": "123asdf456asdf"
+} 
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body>
+<h1>Welcome</h1>
+<div class="container" data-ng-controller="LoginCtrl">
+	<div class="maincontainer">
+		<form name="loginform" novalidate>
+			<ul class="loginControl">
+				<li class="usertxt"><input type="text" placeholder="Username" data-ng-model="username"></li>
+				<li class="pwdtxt"><input type="password" placeholder="password" data-ng-model="password"></li>
+				<li><p id="error" class="text-error" data-ng-show="validationError.length > 0">
+					{{validationError}}
+				</p></li>
+			
+			</ul>
+			<input type="submit" class="loginBtn" value="Login" data-ng-click="login()">
+		</form> 
+	</div>
+</div>
+</body>
+</html>

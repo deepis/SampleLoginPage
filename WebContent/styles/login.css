@@ -1,0 +1,65 @@
+/* Login */
+.loginform{
+	
+}
+.maincontainer{
+	border:1px solid #D1D0D0;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin:-15px 0 0 -200px;
+	width:406px;
+	
+}
+.loginControl{
+    margin:10 auto;
+    width:350px;
+}
+.usertxt,
+.pwdtxt{
+    border:1px solid #CECECE;/*#76B8E2;*/
+    border-radius:3px;
+    text-align:left;
+    overflow:hidden;
+    outline:none;
+    margin-right:16px;
+}
+.usertxt{
+    margin-bottom:19px;
+    margin-right:16px;
+}
+.usertxt input,
+.pwdtxt input{
+    border:none;
+    text-indent:10px;
+    height:35px;
+    width:331px;
+}
+.rememberControl{
+    float:left;
+    padding:31px 0 0 10px;
+}
+.rememberControl input[type="checkbox"]{
+    vertical-align: middle;
+}
+.rememberControl label{
+    color:#2D3389;
+    padding:0 0 0 5px;
+    vertical-align: middle;
+}
+.loginBtn{
+    background-image:-webkit-linear-gradient(top,#ffffff 0,#d0d0d0 100%);
+    background-image:-o-linear-gradient(top,#ffffff 0,#d0d0d0 100%);
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#d0d0d0));
+    background-image:linear-gradient(to bottom,#ffffff 0,#d0d0d0 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffd0d0d0', GradientType=0);
+    filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat:repeat-x;
+    border:1px solid #D0D0D0;
+    border-radius:3px;
+    color:#333333;
+    align:center; 
+    margin:10px 160px;
+    padding:0 15px;
+    height:28px;
+}
